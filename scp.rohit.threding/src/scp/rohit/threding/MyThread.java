@@ -25,6 +25,7 @@ public class MyThread implements Runnable{
 		
 		t1.sleep(1000);
 		t2.sleep(100);
+		System.out.println("threading creates a duplicate object");
 	
 		
 	}	
